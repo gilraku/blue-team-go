@@ -1,0 +1,6 @@
+services:
+  blue-team-go:
+    build: .
+    volumes:
+      - ./examples:/data
+    working_dir: /data
