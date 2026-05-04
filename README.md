@@ -45,3 +45,23 @@ go run ./cmd/cidr-calc -cidr 192.168.1.0/24
 ## License
 
 MIT
+
+## New Tools (v0.2)
+
+| Tool | Description |
+|------|-------------|
+| `whois` | WHOIS lookup for domains and IPs |
+| `asn-lookup` | ASN/BGP prefix lookup via Team Cymru |
+| `mac-lookup` | MAC address vendor identification |
+| `entropy` | File entropy calculator for malware analysis |
+| `hexdump` | Hex+ASCII file dump |
+| `strings-extract` | Extract printable strings from binaries |
+| `timestamp` | Unix epoch ↔ human date converter |
+| `url-parse` | URL component parser and decoder |
+| `ip-range` | IP range expander (CIDR, dash, list) |
+| `pass-gen` | Cryptographically secure password generator |
+| `file-type` | Magic bytes file type detector |
+| `rot` | ROT13/Caesar cipher with brute force mode |
+| `email-header` | Email header parser for phishing analysis |
+| `netstat-parse` | netstat output parser and summarizer |
+| `ua-parse` | User-Agent string parser |
